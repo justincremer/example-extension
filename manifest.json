@@ -1,0 +1,19 @@
+{
+  "name": "Example Extension",
+  "description": "Basic browser extension",
+  "version": "0.1",
+  "manifest_version": 2,
+  "action": {
+	"default_popup": "index.html",
+	"default_icon": "example.png"
+  },
+  "commands": {
+	"_execute_action": {
+	  "suggested_key": {
+		"default": "Ctrl+Shift+F",
+		"mac": "MacCtrl+Shift+F"
+	  },
+	  "description": "Opens index.html"
+	}
+  }
+}
